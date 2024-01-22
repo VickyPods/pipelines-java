@@ -42,10 +42,21 @@
       </plugin>
     </plugins>
   </build>
-
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-	
+<!-- Add the repository to both your pom.xml's <repositories> section -->
+<repositories>
+  <repository>
+    <id>Vickypathade123</id>
+    <url>https://pkgs.dev.azure.com/Vickypathade123/_packaging/Vickypathade123/maven/v1</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+  </repository>
+</repositories>
 </project>
