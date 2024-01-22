@@ -1,0 +1,13 @@
+<!-- Add or edit the settings.xml file in ${user.home}/.m2 -->
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                              https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <servers>
+    <server>
+      <id>Vickypathade123</id>
+      <username>Vickypathade123</username>
+      <password>7lgiovmwrfglypt2esq464y5qsfwhm5vw2z2ij2h5euocsfgpy5a</password>
+    </server>
+  </servers>
+</settings>
